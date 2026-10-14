@@ -1,0 +1,16 @@
+# tracking-plan.yml — o contrato de eventos do produto (schematize-analytics).
+# Formato lido por scripts/check-tracking.sh. Mudou o significado de um evento: evento NOVO, não edição.
+version: 1
+events:
+  - name: cadastro_concluido
+    owner: time-growth
+    description: Conta criada e primeiro fator verificado.
+    properties: [metodo, plano]
+  - name: pedido_pago
+    owner: time-receita
+    description: Pagamento confirmado pelo PSP (não a tentativa).
+    properties: [valor_centavos, moeda]
+  - name: convite_enviado
+    owner: time-growth
+    description: Convite emitido por um membro do tenant.
+    properties: []

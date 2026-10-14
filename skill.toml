@@ -1,0 +1,12 @@
+slug = "analytics"
+name = "schematize-analytics"
+tag = "Disciplina · Analytics de produto"
+status = "beta"
+order = 48
+current_version = "0.1.0"
+href = "/analytics"
+
+[descriptions]
+pt = "Analytics de produto privacy-first: tracking plan versionado como contrato (eventos objeto_acao), consentimento LGPD sem PII em evento, first-party e server-side, métricas com definição única (ativação, retenção por coorte, funil, North Star), experimento A/B (amostra, SRM, peeking, guardrails) e feature flags."
+en = "Privacy-first product analytics: a versioned tracking plan as contract (object_action events), LGPD consent with no PII in events, first-party and server-side collection, metrics with one definition (activation, cohort retention, funnel, North Star), A/B experiments (sample size, SRM, peeking, guardrails) and feature flags."
+es = "Analytics de producto privacy-first: tracking plan versionado como contrato (eventos objeto_accion), consentimiento LGPD sin PII en eventos, recolección first-party y server-side, métricas con una sola definición (activación, retención por cohorte, embudo, North Star), experimentos A/B (muestra, SRM, peeking, guardrails) y feature flags."
