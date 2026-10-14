@@ -1,7 +1,7 @@
 ---
 name: schematize-analytics
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 description: >-
   Analytics de produto privacy-first: tracking plan, consentimento LGPD sem PII, métricas, A/B. Use ao instrumentar evento ou métrica. Gate check-tracking.sh. Dados: schematize-data.
 ---
@@ -16,7 +16,7 @@ LGPD, sem PII em evento), com que ferramenta (first-party, privacy-first), com q
 A tese: **evento é contrato e dado pessoal é passivo** — todo evento sem dono, sem nome padrão ou com
 e-mail dentro é dívida que o time paga na análise errada e na auditoria da LGPD.
 
-**Versão:** skill `schematize-analytics` v0.1.0. Changelog em `CHANGELOG.md`.
+**Versão:** skill `schematize-analytics` v0.2.0. Changelog em `CHANGELOG.md`.
 
 ## Precedência e herança (leia antes de divergir)
 
