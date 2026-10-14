@@ -170,4 +170,3 @@ if [ -s "$ACHADOS" ]; then
   echo "check-tracking: $(sort -u "$ACHADOS" | wc -l) achado(s) — reprovado"; exit 1
 fi
 echo "check-tracking: ok ($ncalls chamada(s) conferida(s) contra o plano; $avisos aviso(s))"
-exit 0

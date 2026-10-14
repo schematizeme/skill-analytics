@@ -6,6 +6,10 @@ com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 ## [0.2.0] — 2026-10-14
 Integração ao catálogo: orçamento de description e ponteiros entre as irmãs novas.
 
+### Corrigido
+
+- `check-tracking.sh` sai com o status real (sem `exit 0` incondicional no fim).
+
 ### Alterado
 - `description` <=190 (orçamento do catálogo).
 - Divisas: `schematize-incident → references/lgpd.md` (vazamento de dado de tracking) e `schematize-payments` (dado financeiro não é tracking).
