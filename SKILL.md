@@ -3,7 +3,7 @@ name: schematize-analytics
 metadata:
   version: 0.1.0
 description: >-
-  Analytics de produto privacy-first: tracking plan como contrato, consentimento LGPD sem PII, métricas, A/B e flags. Use ao instrumentar evento, definir métrica ou rodar experimento. Gate check-tracking.sh. Dados: schematize-data.
+  Analytics de produto privacy-first: tracking plan, consentimento LGPD sem PII, métricas, A/B. Use ao instrumentar evento ou métrica. Gate check-tracking.sh. Dados: schematize-data.
 ---
 <!-- cross-skill: efeitos-externos.md, iam.md, observabilidade.md -> schematize-engineering -->
 
@@ -53,6 +53,8 @@ e-mail dentro é dívida que o time paga na análise errada e na auditoria da LG
 | Implementação no front (banner de cookie, script, RSC, CSP, CWV do script de terceiro) | `schematize-web` | `schematize-web → references/seguranca.md`, `performance.md`; aqui o contrato do evento |
 | Identidade do usuário (ID interno, nunca e-mail) | `schematize-iam` | `schematize-engineering → references/iam.md`; aqui só: o `distinct_id` é o ID opaco |
 | Textos legais (política de privacidade, cookies) | `schematize-institutional` | scaffold com revisão jurídica humana; aqui o desenho técnico do consentimento |
+| Vazamento de dado de tracking / incidente de privacidade | `schematize-incident` | `schematize-incident → references/lgpd.md`; aqui o que o plano deveria ter impedido |
+| Evento de pagamento/cobrança (valor, estado) | `schematize-payments` | o dado financeiro é do ledger, não do tracking; aqui só o evento de comportamento |
 | ADR (escolha de ferramenta, base legal) | `schematize-docs` | decisões que esta skill manda registrar |
 
 ## Comandos (Claude Code)

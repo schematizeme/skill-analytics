@@ -3,6 +3,14 @@
 Todas as mudanças relevantes deste pacote, no formato [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/),
 com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.2.0] — 2026-10-14
+Integração ao catálogo: orçamento de description e ponteiros entre as irmãs novas.
+
+### Alterado
+- `description` <=190 (orçamento do catálogo).
+- Divisas: `schematize-incident → references/lgpd.md` (vazamento de dado de tracking) e `schematize-payments` (dado financeiro não é tracking).
+- Motivo: o catálogo estourou o orçamento de listagem com 45 skills; cada fronteira aponta a dona em vez de duplicar.
+
 ## [0.1.0] — 2026-10-14
 Primeira versão. Medição de comportamento de produto vivia espalhada: privacidade/LGPD na base e na
 `schematize-data`, telemetria técnica na `schematize-observability`, tráfego orgânico na `schematize-seo`.
